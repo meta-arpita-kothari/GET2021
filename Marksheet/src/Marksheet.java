@@ -12,7 +12,7 @@ public class Marksheet {
 	private void setNumberOfStudents(){
 		System.out.println("Enter number of students:");
 		int n = input.nextInt();
-		if(n == 0){
+		if(n <= 0){
 			System.out.println("Marksheet cannot be created for zero student.");
 			System.out.println("Do you want to try again?(y/n)");
 			Character ch = input.next().charAt(0); 
